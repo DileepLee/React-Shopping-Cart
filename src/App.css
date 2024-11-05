@@ -1,0 +1,35 @@
+/* App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #dcdaa4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  font-size: 32px;
+  margin: 20px 0;
+}
+
+.app-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #90d7dc;
+  border-radius: 12px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-container,
+.cart-container {
+  margin-top: 30px;
+}
